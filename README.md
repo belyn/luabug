@@ -3,7 +3,7 @@
 1. author:marvin  
 1. **luabug** 是基于vscode开发的一款用于lua语言开发者使用的插件, 
 2. 由于luaIde在v0.3.7之后不进行开源，本插件只是基于luaIde V0.3.7升级维护
-3. 有兴趣查看原作者的请点这(https://github.com/k0204/LuaIde/tree/master/luadebug)
+3. 有兴趣查看原作者的请点这(https://github.com/k0204/LuaIde)
 
 
 # LuaIde 更新日志  
@@ -12,7 +12,7 @@
 1. 2018/1/22 0.1.1 版本
 	1. 新增断点调试时支持查看protobuf实体属性值
 1. 2018/1/22 0.1.0 版本
-	上传luaIde v0.3.7版本(https://github.com/k0204/LuaIde/tree/master/luadebug)
+	上传luaIde v0.3.7版本(https://github.com/k0204/LuaIde)
 
 #重要提示
 1.  [LuaDebug 下载地址](https://github.com/k0204/LuaIde/tree/master/luadebug)

@@ -72,7 +72,7 @@ export class ExtensionManager {
         this.golbal.context = context;
         this.luaIdeConfigManager = new LuaIdeConfigManager();
         this.templateManager = new TemplateManager();
-        this.luaIdeConfigManager.showRecharge();
+        // this.luaIdeConfigManager.showRecharge();
 
         vscode.commands.registerCommand('luaide.changecase.toLowerCase', (e) => { this.RunCommand(this.COMMAND_LABELS.toLowerCase,e) });
         vscode.commands.registerCommand('luaide.changecase.toUpperCase', (e) => { this.RunCommand(this.COMMAND_LABELS.toUpperCase,e) });

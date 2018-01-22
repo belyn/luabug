@@ -39,7 +39,7 @@ export class LuaIdeConfigManager {
             this.copyConfig();
             this.readUserInfo();
             // this.statisticsMain = new StatisticsMain(this.userInfo)
-            this.showRecharge();
+            // this.showRecharge();
             this.showIndex();
             this.isInit= true;
         }catch(err){

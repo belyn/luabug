@@ -1086,11 +1086,7 @@ local function debugger_getBreakVar(body, server)
 			end
 
 			
-			for i=1, 5 do
-				local vinfo = debugger_setVarInfo("marvin_"..i, 100 + i)
-				table.insert(vinfos, vinfo)
-			end
-
+			-- 2018.1.22 added by marvin protobuf属性调试显示
 			if vars._fields then
 				for k, v in pairs(vars._fields) do
 					if type(k) == "table" and k.name then
